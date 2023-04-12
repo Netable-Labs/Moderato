@@ -1,4 +1,10 @@
+# All discord related settings
 discord:
+  # Discord Bot token. Create an applicaiton in the Discord Developer Dashboard https://discord.com/developers/applications
   token: "your-discord-token"
+# Moderato Modules see https://docs.moderato.dev/modules for more information
+modules: ["moderation"]
+# Database settings
 db:
+  # defines the driver Moderato uses for its database. Check https://docs.moderato.dev/db-driver for more information
   driver: "sqlite"

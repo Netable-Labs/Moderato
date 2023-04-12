@@ -1,5 +1,6 @@
 import { GatewayIntentBits } from "discord.js";
 
+// Intents for basic usage
 export const basic = [
   GatewayIntentBits.Guilds,
   GatewayIntentBits.GuildMembers,
@@ -14,6 +15,7 @@ export const basic = [
   GatewayIntentBits.DirectMessages,
   GatewayIntentBits.DirectMessageTyping,
   GatewayIntentBits.DirectMessageReactions,
+  GatewayIntentBits.MessageContent,
 ];
 
 export default basic;
