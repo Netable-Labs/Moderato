@@ -1,0 +1,4 @@
+discord:
+  token: "your-discord-token"
+db:
+  driver: "sqlite"
