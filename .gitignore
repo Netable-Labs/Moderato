@@ -109,3 +109,6 @@ config.yml
 
 # Notes
 notes.txt
+
+# Not yet ready
+aiToxicity.ts
