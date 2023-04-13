@@ -89,3 +89,10 @@ DiscordClient.on("messageCreate", (message) => {
     module.implementation.messageCreate(message);
   });
 });
+
+DiscordClient.on("guildMemberAdd", (member) => {
+  loadedModules.forEach((module) => {
+    if (!module.implementation.guildMemberAdd) return;
+    module.implementation.guildMemberAdd(member);
+  });
+});
